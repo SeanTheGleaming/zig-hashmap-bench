@@ -1,0 +1,16 @@
+.{
+    .name = "hasmap-bench",
+    .version = "0.0.0",
+    .dependencies = .{
+        .zbench = .{
+            .url = "https://github.com/hendriknielaender/zBench/archive/v0.8.0.tar.gz",
+            .hash = "1220a7330b49a17f0fd0dcf40f76f015db5180b3f1a6f52d7043801846795233c490",
+        },
+    },
+    .minimum_zig_version = "0.12.0",
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+    },
+}
